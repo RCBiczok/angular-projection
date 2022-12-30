@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-import { AComponent } from './a/a.component';
-import { BComponent } from './b/b.component';
-import { DummyComponent } from './dummy/dummy.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, AComponent, BComponent, DummyComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    LayoutComponent,
+  ],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
