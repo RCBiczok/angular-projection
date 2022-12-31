@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LayoutComponent } from './layout/layout.component';
+import { NestedLayoutComponent } from './nested-layout/nested-layout.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -14,6 +15,7 @@ import { LayoutComponent } from './layout/layout.component';
     HeaderComponent,
     FooterComponent,
     LayoutComponent,
+    NestedLayoutComponent,
   ],
   bootstrap: [AppComponent],
 })

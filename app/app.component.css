@@ -1,3 +1,7 @@
-p {
-  font-family: Lato;
+.good {
+  color: green;
+}
+
+.bad {
+  color: red;
 }
